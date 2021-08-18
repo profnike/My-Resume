@@ -8,6 +8,8 @@ body{
     margin: 5px;
     max-width: 100%;
     min-width: 100%;
+    display: flex;
+    flex-direction: column;
    
 }
 
@@ -41,8 +43,14 @@ h1{
 }
 .body{
     margin: 10px auto;
-    padding: 10px 40px;
+    padding: 10px 10px;
     margin: 13px 30px;
+    max-width: 100%;
+    min-width:100%;
+    align-self: center;
+    
+    
+    
 }
 .body p{
    margin: 15px; 
@@ -56,30 +64,65 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+.diver{
+   
+    padding:0px;
+  max-width: 220px;
+  min-width:220px;
+   display: flex;
+   
+    
+    
+    
+   
+   
+}
+.diver p{
+    display: flex;
+    align-self: flex-start;
+    
+    align-self: flex-start;
+    
+}
+
 #email{
     color: blue;
 }
 img{height: 70px;
     width: 70px;}
 #img-div{
-    align-self: flex-start;
+    align-self: center;
+    padding: 0px;
     
     height: 100px;
 width: 100px;
 display: flex;
 justify-content: center;
+margin: 0 auto;
+margin-left: 15px;
 }
 @media screen and (max-width:960px) {
     h1{
         font-size: 20px;
        
     }
+    .diver{
+        max-width:120px;
+        min-width:120px;
+    }
 }
 @media screen and (min-width:961px) {
    .body p{
         font-size: 18px;
        
+       
     }
+    .body{
+        max-width: 70%;
+        min-width:70%;
+       
+    }
+    
     .intro p{
         font-size: 18px;
     }
